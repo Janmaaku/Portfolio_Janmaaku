@@ -37,4 +37,13 @@ disableLogger: true,
 // https://docs.sentry.io/product/crons/
 // https://vercel.com/docs/cron-jobs
 automaticVercelMonitors: true,
+ output: 'export',
+  trailingSlash: true,
+  images: {
+    unoptimized: true
+  },
+  // Replace 'your-repo-name' with your actual GitHub repository name
+  // Remove these lines if your repo is username.github.io
+  basePath: '/Portfolio_Janmaaku',
+  assetPrefix: '/Portfolio_Janmaaku/'
 });
